@@ -162,10 +162,11 @@ class TestCountKmersWithContext:
     def test_known_example_from_assignment(self):
         """Test the example given in the assignment: ATGTCTGTCTGAA with k=2."""
         result = count_kmers_with_context("ATGTCTGTCTGAA", 2)
-        # TG appears twice and is followed by T both times
-        assert result["TG"]["count"] == 2
+        # TG appears three times and is followed by T both times
+        assert result["TG"]["count"] == 3
         assert result["TG"]["next_chars"]["T"] == 2
-
+        assert result["TG"]["next_chars"]["A"] == 1
+        
     def test_returns_dict(self):
         """Function should return a dictionary."""
         result = count_kmers_with_context("ATGT", 2)
