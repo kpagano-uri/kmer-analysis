@@ -13,9 +13,9 @@ python kmer_analysis.py <sequence_file> <k> <output_file>
 ```
 
 ### Arguments
-- `sequence_file` — path to a text file containing one DNA sequence per line
-- `k` — length of k-mers to count (integer)
-- `output_file` — path to write results to
+- `sequence_file` : path to a text file containing one DNA sequence per line
+- `k` : length of k-mers to count (integer)
+- `output_file` : path to write results to
 
 ### Example
 
