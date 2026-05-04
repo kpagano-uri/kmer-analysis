@@ -65,4 +65,4 @@ pytest test_kmer_analysis.py
 
 ## AI Statement
 
-Claude (Anthropic; Sonnet 4.6 Adaptive) was used to assist with debugging, writing tests, and docstrings. All comments were written, and all code was reviewed and verified by Kathryn Pagano.
+Claude (Anthropic; Sonnet 4.6 Adaptive) was used to assist with debugging, writing tests. All comments and docstrings were written by Kathryn Pagano. All code was reviewed and verified by Kathryn Pagano.
